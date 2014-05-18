@@ -1,4 +1,4 @@
-
+</div>
     <footer role="contentinfo">
         <div class="container">
             <p class="small">The footer</p>

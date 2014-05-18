@@ -46,24 +46,18 @@
             <nav id="nav" role="navigation" class="tiled group">
                 <div class="block">
                     
-                    <ul>
-                        <li class="is-active">
-                            <a href="#">Home</a>
-                        </li>
-                    <li>
-                            <a href="#">About</a>
-                        </li>
-                     <li>
-                            <a href="#">Work</a>
-                        </li>
-                         
-                    <li>
-                            <a href="#">Contact</a>
-                        </li>
-                     
-                    </ul>
+                    <?php 
+
+                        $args = array(
+                            'menu' => 'main-menu'
+                            );
+
+                        wp_nav_menu( $args );
+                    ?>
                     <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
                 </div>
             </nav>
         </div>
 </div>
+
+<div class="container">
