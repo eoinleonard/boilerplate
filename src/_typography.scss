@@ -1,0 +1,22 @@
+body {
+	p {
+		font-size: pem(19);
+	}
+	
+}
+
+ h1, h2, h3, h4, h5, h6{
+    color: $heading-color;
+}
+
+ h1 {
+        font-size: pem(30);
+        line-height: pem(36, 30);
+        margin-bottom: pem(12, 30);
+    }
+
+    h2 {
+        font-size: pem(24);
+        line-height: pem(30, 24);
+        margin-bottom: pem(12, 24);
+    }
